@@ -21,7 +21,7 @@ create-react-app v3.3.0
 크롬 개발자 도구 Performance 탭에서 녹화 버튼 누른 후, 어떤 동작을 하고 Stop 버튼 누릅니다.
 그러면 어떤 동작을 하는 것에 대한 성능 분석 결과가 나타납니다.
 
-![performance_before](./img/performance_before.png)
+<img width="870" alt="performance_before" src="https://user-images.githubusercontent.com/13010966/70238533-ce3adf80-17ac-11ea-86f8-557a74f3938b.png">
 
 2,500개의 할 일 목록에서 하나를 체크하는 데, 1.38초가 걸립니다.
 
@@ -60,7 +60,7 @@ const onRemove = useCallback( id => {
 
 **성능 향상 결과**
 
-![performance_after](./img/performance_after.png)
+<img width="871" alt="performance_after" src="https://user-images.githubusercontent.com/13010966/70238595-e7dc2700-17ac-11ea-9ba6-b70bed07c957.png">
 
 1.38초에서 0.112초로 훨씬 향상되었습니다!!
 
@@ -114,6 +114,6 @@ react-viertualized를 사용하면 스크롤되기 전에 보이지 않는 컴�
 
 - 자세한 코드는 src/components/TodoList.js 참고
 
-![performance_virtualized](./img/performance_virtualized.png)
+<img width="780" alt="performance_virtualized" src="https://user-images.githubusercontent.com/13010966/70238627-f591ac80-17ac-11ea-9f3d-bd199bae5724.png">
 
 React.memo를 통해 0.112초까지 줄였는데, 0.008초로 훨씬 더 줄었습니다!!!
