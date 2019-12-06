@@ -117,3 +117,10 @@ react-viertualized를 사용하면 스크롤되기 전에 보이지 않는 컴�
 <img width="780" alt="performance_virtualized" src="https://user-images.githubusercontent.com/13010966/70238627-f591ac80-17ac-11ea-9f3d-bd199bae5724.png">
 
 React.memo를 통해 0.112초까지 줄였는데, 0.008초로 훨씬 더 줄었습니다!!!
+
+<br>
+<br>
+
+**출처**
+
+- 김민준, 『리액트를 다루는 기술, 개정판』
